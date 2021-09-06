@@ -17,5 +17,3 @@ This Sets the Govenor to 50% when the remote is turned off
     Set the 50% mark of the throttle curve to what you want the throttle off govenor to be.
 
 My Forward/Neutral/Reverse switch is 3 position SPDT On-Off-On 
-  The Arduino Requires the pins not be left as open circuits.
-  So Resistors to ground are used with the switches. 

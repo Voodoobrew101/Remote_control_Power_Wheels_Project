@@ -16,4 +16,4 @@ This Sets the Govenor to 50% when the remote is turned off
   The remote off govener speed can be adjused if your esc has a throttle curve.
     Set the 50% mark of the throttle curve to what you want the throttle off govenor to be.
 
-My Forward/Neutral/Reverse switch is 3 position SPDT On-Off-On 
+My Forward/Neutral/Reverse switch is 3 position SPDT On-Off-On conected to ground (no power wire goes to the switch!)

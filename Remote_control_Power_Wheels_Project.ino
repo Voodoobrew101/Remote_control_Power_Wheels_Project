@@ -49,7 +49,9 @@ void setup() {
   Serial.begin(9600);
   pinMode(myESCpin, OUTPUT);
   pinMode(forwardPin, INPUT);
+  digitalWrite(forwardPin, HIGH);
   pinMode(reversePin, INPUT);
+  digitalWrite(reversePin, HIGH);
 }
 
 void loop()   {
@@ -79,12 +81,12 @@ void loop()   {
       bool carReverse = digitalRead(reversePin);
 
 // Are we going forward?
-      if (carForward > 0) {
+      if (carForward == 0) {
         pwmOutput = map(finalpedalInput, 0, 100, forwardMin, forwardMax);
       }
 
 // Then are we going backward?
-      else if (carReverse > 0) {
+      else if (carReverse == 0) {
         pwmOutput = map(finalpedalInput, 0, 100, reverseMin, reverseMax);
       }
     } 

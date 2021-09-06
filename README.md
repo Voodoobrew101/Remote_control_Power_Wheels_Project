@@ -1,5 +1,5 @@
 
-![Image of Yaktocat](https://github.com/Voodoobrew101/Remote_control_Power_Wheels_Project/blob/078a31f9d7e11925afd6f1379390db140e579750/Pinout.png)
+![Image of Yaktocat](https://github.com/Voodoobrew101/Remote_control_Power_Wheels_Project/blob/1430507ba15cb4d7a0cb1d20398603b2737df3e7/Pinout.png)
 
 This program is intended to allow 2 inputs and one output for making a remote control power wheels
 Input one is a pwm signal from the remote reciever
